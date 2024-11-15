@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolios.css">
+    <title>App</title>
+</head>
+
+<body>
+    <h1>Primeiro trimestre</h1>
+    <h2>Sem atividades.</h2>
+
+    <h1>Segundo trimestre</h1>
+    <h2>Sem atividades.</h2>
+
+    <h1>Terceiro trimestre</h1>
+    <div class="cards-container">
+        <div class="portfolio1-card" onclick="handleClick('/portfolio')">
+            <h2>Tarefa 02</h2>
+            <a href="https://github.com/Gstechnology18/Node_aula1"><img src="tarefa02node.png" alt=""></a>
+            <h6>3° trimestre</h6>
+            <h3>Habilidades:
+                Não contém habilidades.
+            </h3>
+            <h5>O objetivo dessa atividade foi aprender a usar pacotes externos como inquirer e chalk para interagir com
+                o usuário e formatar saídas no console de maneira colorida.
+                Isso melhorou a experiência do usuário ao fornecer informações de forma visualmente atraente.</h5>
+        </div>
+        <div class="portfolio1-card" onclick="handleClick('/portfolio')">
+            <h2>Atividade express</h2>
+            <a href="https://github.com/Gstechnology18/Atividade_node-express"><img src="nodeexpress.png" alt=""></a>
+            <h6>3° trimestre</h6>
+            <h3>Habilidades:
+                Não contém habilidades.
+            </h3>
+            <h5>O objetivo dessa atividade foi criar uma aplicação web simples utilizando o framework Express para
+                gerenciar rotas e servir páginas HTML.
+                Além disso, a atividade visou aprender a estilizar essas páginas com CSS, modificando cores de fundo e
+                texto, para proporcionar uma experiência visual agradável e acessível ao usuário.</h5>
+        </div>
+    </div>
+    <div class="back-button">
+        <button onclick="volta()">Voltar</button>
+    </div>
+
+    <script>
+        function volta() {
+            history.back();
+        }
+    </script>
+</body>
+
+</html>
